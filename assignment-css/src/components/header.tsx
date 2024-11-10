@@ -55,7 +55,7 @@ const Header = () => {
             className="lg:hidden text-teal-600"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
-            <img src="/menu-icon.svg" alt="Menu" className="w-6 h-6" />
+            <Image src="/menu-icon.svg" alt="Menu" className="w-6 h-6" />
           </button>
 
           {/* Navbar Items */}
