@@ -22,7 +22,7 @@ export default function Home() {
           Welcome to My Portfolio
         </h1>
         <p className="hero-description">
-          Hi, I'm Alishba Moin, a web developer passionate about creating beautiful and functional websites.
+        Hi, I&apos;m Alishba Moin, a web developer passionate about creating beautiful and functional websites.
         </p>
         <div className="mt-8">
           <a
