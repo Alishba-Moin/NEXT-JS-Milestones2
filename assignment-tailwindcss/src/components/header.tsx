@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { FaPhoneAlt, FaFacebookF, FaGithub, FaLinkedinIn, FaInstagram, FaEnvelope } from "react-icons/fa";
 import Link from "next/link";
+import Image from "next/image";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -55,7 +56,7 @@ const Header = () => {
             className="lg:hidden text-teal-600"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
-            <img src="/menu-icon.svg" alt="Menu" className="w-6 h-6" />
+            <Image src="/menu-icon.svg" alt="Menu" className="w-6 h-6" />
           </button>
 
           {/* Navbar Items */}

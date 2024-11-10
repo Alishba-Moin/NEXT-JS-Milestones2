@@ -15,7 +15,7 @@ const HeroSection = () => {
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
           <div className="text-center px-6 max-w-[900px]">
             <h4 className="text-white uppercase mb-3 font-bold">Tours & Travel</h4>
-            <h1 className="text-5xl text-white mb-6 font-extrabold">Let's Discover The World Together</h1>
+            <h1 className="text-5xl text-white mb-6 font-extrabold">Let&apos;s Discover The World Together</h1>
             {/* Button */}
             <a
               href="/contact"

@@ -31,8 +31,8 @@ const ContactForm = () => {
           <h6>Contact</h6>
           <h1>Contact For Any Query</h1>
           <p>
-            We'd love to hear from you! Feel free to drop us a message, and
-            we'll get back to you as soon as possible.
+            We&apos;d love to hear from you! Feel free to drop us a message, and
+            we&apos;ll get back to you as soon as possible.
           </p>
         </div>
 

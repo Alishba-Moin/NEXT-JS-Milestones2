@@ -16,7 +16,8 @@ const HeroSection = () => {
         <div className="hero-overlay">
           <div className="hero-content">
             <h4 className="hero-title">Tours & Travel</h4>
-            <h1 className="hero-main-title">Let's Discover The World Together</h1>
+            <h1 className="hero-main-title">Let&apos;s Discover The World Together</h1>
+
             {/* Button */}
             <a
               href="/contact"
