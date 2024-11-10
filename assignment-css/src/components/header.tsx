@@ -3,6 +3,8 @@
 import { useState } from "react";
 import { FaPhoneAlt, FaFacebookF, FaGithub, FaLinkedinIn, FaInstagram, FaEnvelope } from "react-icons/fa";
 import Link from "next/link";
+import Image from 'next/image';
+
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
