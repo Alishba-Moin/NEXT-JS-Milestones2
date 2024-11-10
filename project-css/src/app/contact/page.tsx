@@ -42,7 +42,7 @@ export default function Contact() {
 
         {/* Contact Form */}
         <div className="contact-form">
-          <h3 className="contact-form-title">Let's work together!</h3>
+          <h3 className="contact-form-title">Let&apos;s work together!</h3>
 
           <div className="contact-form-grid">
             <input
