@@ -47,7 +47,7 @@ export default function Skills() {
             <h4 className="font-bold text-xl text-purple-500 mb-4">{category.category}</h4>
 
             {/* Skill Items */}
-            <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+            <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
               {category.items.map((skill, skillIndex) => (
                 <li key={skillIndex} className="flex justify-center items-center">
                   <div className="w-full h-[90px] bg-[#232329] rounded-xl flex justify-center items-center group p-4 gap-2 hover:bg-[#333] transition-all duration-300">
